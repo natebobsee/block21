@@ -1,0 +1,14 @@
+.reservations {
+}
+
+#reservations .recipe {
+  padding: 20px;
+}
+
+#reservations .name {
+  font-weight: bold;
+}
+
+#reservations .description {
+  font-style: italic;
+}
