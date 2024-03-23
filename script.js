@@ -1,9 +1,5 @@
 const baseURL = 'https://fsa-crud-2aa9294fe819.herokuapp.com/api/2401-ftb-et-web-pt'
 
-async function logAsync(func) {
-    const result = await func();
-    console.log(result);
-}
 
 // get recipes
 async function getReservations() {
@@ -14,7 +10,7 @@ async function getReservations() {
         throw new Error(json.error);
     }
 
-    return json.data;
+  
 
     return json.data;
 }
