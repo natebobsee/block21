@@ -63,11 +63,11 @@ function addReservationsRender(r) {
         descriptionElem.classList.add('description')
         descriptionElem.append(r.description)
         const locationElem = document.createElement('div');
-        nameElem.classList.add('location')
-        nameElem.append(r.location)
+        locationElem.classList.add('location')
+        locationElem.append(r.location)
         const dateElem = document.createElement('div');
-        nameElem.classList.add('date')
-        nameElem.append(r.date)
+        dateElem.classList.add('date')
+        dateElem.append(r.date)
 
         elem.append(nameElem);
         elem.append(descriptionElem);
